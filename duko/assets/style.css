@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #252525;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 110px;
+    background-color: #000000;
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    left: 30px;
+    top: 33px;
+}
+
+header .logo{
+    width: 110px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+header .logo img{
+    width: 100%;
+    height: auto;
+}
+
+.image{
+    width: 180px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+/* Section */
+section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+
+section article .card {
+    width: 450px;
+    height: 250;
+    background-color: #303030;
+    border-radius: 10px;
+    margin: 15px;
+    display: inline-block;
+}
+
+section article .miniatura{
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+}
+
+section article .miniatura img{
+    width: 100%;
+    height: auto;
+}
+
+section article span{
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 110px;
+    background-color: #000000;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer .logo{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 5%;
+    top: 28%;
+}
+
+footer .logo img{
+    width: 100%;
+    height: auto;
+}
+
+footer span{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+footer .spotify{
+    width: 35px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+footer .spotify img{
+    width: 100%;
+    height: auto;
+}
+
+footer .youtube{
+    width: 35px;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+
+footer .youtube img{
+    width: 100%;
+    height: auto;
+}
