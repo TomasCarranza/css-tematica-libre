@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,6 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    text-align: center;
 }
 
 /* Header */
@@ -18,21 +19,19 @@ header{
     width: 100%;
     height: 110px;
     background-color: #000000;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1{
-    position: absolute;
-    left: 30px;
-    top: 33px;
+    margin-left: 25px;
 }
 
 header .logo{
     width: 110px;
     height: auto;
-    position: absolute;
-    right: 30px;
-    top: 20px;
+    margin-right: 25px;
 }
 
 header .logo img{
@@ -40,11 +39,21 @@ header .logo img{
     height: auto;
 }
 
+/* Section */
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
 .image{
     width: 180px;
     height: auto;
-    display: inline-block;
-    text-align: center;
 }
 
 .image img{
@@ -54,28 +63,23 @@ header .logo img{
     margin: 15px;
 }
 
-/* Section */
-section{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    align-items: center;
-}
-
 section article .card {
-    width: 450px;
-    height: 250;
+    width: 700px;
+    height: 180px;
     background-color: #303030;
     border-radius: 10px;
     margin: 15px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
 section article .miniatura{
-    width: 200px;
+    width: 250px;
     height: auto;
-    display: inline-block;
     margin: 10px;
+    display:flex ;
 }
 
 section article .miniatura img{
@@ -83,31 +87,27 @@ section article .miniatura img{
     height: auto;
 }
 
-section article span{
-    display: inline-block;
-    margin: 10px;
+section article p{
+    font-size: large;
+    max-width: 320px;
+    display: flex;
 }
 
 /* Footer */
-
 footer{
     width: 100%;
     height: 110px;
     background-color: #000000;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
 }
 
 footer .logo{
     width: 100px;
     height: auto;
-    position: absolute;
-    left: 5%;
-    top: 28%;
+    margin-left: 20px;
 }
 
 footer .logo img{
@@ -115,20 +115,19 @@ footer .logo img{
     height: auto;
 }
 
-footer span{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)
+footer .redes{
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
 }
 
 footer .spotify{
-    width: 35px;
+    width: 36px;
     height: auto;
-    position: absolute;
-    top: 30%;
-    right: 10%;
 }
 
 footer .spotify img{
@@ -139,9 +138,7 @@ footer .spotify img{
 footer .youtube{
     width: 35px;
     height: auto;
-    position: absolute;
-    top: 35%;
-    right: 5%;
+    margin-top: 5px;
 }
 
 footer .youtube img{
